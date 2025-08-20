@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat & Seafood - FreshMart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>🛒 FreshMart</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="groceries.html">Groceries</a></li>
+                <li><a href="fresh-produce.html">Fresh Produce</a></li>
+                <li><a href="dairy.html">Dairy & Eggs</a></li>
+                <li><a href="meat-seafood.html" class="active">Meat & Seafood</a></li>
+                <li><a href="bakery.html">Bakery</a></li>
+                <li><a href="deals.html">Weekly Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> > <span>Meat & Seafood</span>
+        </div>
+
+        <section class="page-header">
+            <h1>🥩 Meat & Seafood Department</h1>
+            <p>Premium quality meats and fresh seafood</p>
+            
+            <!-- Category Level Ad Placement -->
+            <div class="ad-container">
+                <h3>Meat & Seafood Category Ad</h3>
+                <div class="cutomElemen360x400"></div>
+            </div>
+        </section>
+
+        <section class="sidebar-ad">
+            <h3>Meat & Seafood Promotion</h3>
+            <!-- Category Level Ad Placement -->
+            <div class="cutomElemen360x400"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FreshMart. All rights reserved.</p>
+        <p>Current URL: <span id="currentUrl"></span></p>
+    </footer>
+
+    <script>
+        document.getElementById('currentUrl').textContent = window.location.href;
+    </script>
+</body>
+</html>

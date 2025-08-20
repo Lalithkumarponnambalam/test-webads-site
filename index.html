@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshMart - Your Local Grocery Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://localhost:3013/web-advertisement/68a46a517de9a985300856d5/web_advertising_desktop/script.js"></script>
+    <script>
+    let script = document.createElement('script');script.src = "http://localhost:3013/web-advertising-slider/68a46a517de9a985300856d5/web_advertising_slider/script.js?hostUrl=" + encodeURIComponent(window.location.href);document.head.appendChild(script);
+    </script>
+    <script src="http://localhost:3013/lead-collection/68a46a517de9a985300856d5/lead_ads_conversation/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>🛒 FreshMart</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="groceries.html">Groceries</a></li>
+                <li><a href="fresh-produce.html">Fresh Produce</a></li>
+                <li><a href="dairy.html">Dairy & Eggs</a></li>
+                <li><a href="meat-seafood.html">Meat & Seafood</a></li>
+                <li><a href="bakery.html">Bakery</a></li>
+                <li><a href="deals.html">Weekly Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to FreshMart</h1>
+            <p>Fresh Quality Products Every Day - Your Neighborhood Grocery Store</p>
+            
+            <!-- Brand Level Ad Placement -->
+            <div class="ad-container">
+                <h3>FreshMart Brand Ad Placement</h3>
+                <!-- <div class="ffrWebAdvertising300x250Desktop"></div> -->
+                <div class="ffrWebAdvertising1280x719webAdsSlider"></div>
+            </div>
+        </section>
+
+        <section class="featured-categories">
+            <h2>Shop by Department</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <h3>🥬 Fresh Produce</h3>
+                    <p>Fresh fruits and vegetables daily</p>
+                    <a href="fresh-produce.html" class="btn">Shop Produce</a>
+                </div>
+                <div class="category-card">
+                    <h3>🥛 Dairy & Eggs</h3>
+                    <p>Fresh dairy products and farm eggs</p>
+                    <a href="dairy.html" class="btn">Shop Dairy</a>
+                </div>
+                <div class="category-card">
+                    <h3>🥩 Meat & Seafood</h3>
+                    <p>Premium quality meats and fresh seafood</p>
+                    <a href="meat-seafood.html" class="btn">Shop Meat</a>
+                </div>
+                <div class="category-card">
+                    <h3>🍞 Bakery</h3>
+                    <p>Fresh baked goods daily</p>
+                    <a href="bakery.html" class="btn">Shop Bakery</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner-ad">
+            <h3>Homepage Banner Ad</h3>
+            <!-- Universal/Brand Level Ad Placement -->
+            <div class="ffrLeadCollectionAds970x250Conversation"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FreshMart. All rights reserved.</p>
+        <p>Current URL: <span id="currentUrl"></span></p>
+    </footer>
+
+    <script>
+        document.getElementById('currentUrl').textContent = window.location.href;
+    </script>
+</body>
+</html>
